@@ -22,7 +22,6 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content={metaData.description} />
         <meta name="keywords" content={metaData.keywords} />
         <meta name="author" content={metaData.author} />
-        <script src="https://www.smtpjs.com" type="text/javascript" />
       </Head>
 
       <div className="select-none">
