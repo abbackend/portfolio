@@ -1,0 +1,64 @@
+import { motion } from "framer-motion";
+import { styles } from "@/src/utils/styles";
+import React from "react";
+import { ComputersCanvas } from "./canvas";
+import bg from "../assets/herobg.jpg";
+import Image from "next/image";
+import {details} from "../constants";
+
+const Hero = ({ isMobile }) => {
+  const handleLink = (id) => {
+    let elem = document.getElementById(id);
+    elem.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <section className="relative w-full h-screen mx-auto overflow-hidden">
+      <Image
+        draggable={false}
+        src={bg}
+        alt="bg"
+        className="absolute z-[-1] xl:min-w-full min-w-[1600px] min-h-[100vh]"
+      />
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+      >
+        <div className="flex flex-col justify-center items-center mt-5">
+          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+        </div>
+
+        <div>
+          <div className={styles.heroHeadText}>
+            Hi, {`I'm`} <span className="text-[#915eff]">{details.first_name} {details.last_name}</span>
+          </div>
+          <p className={`${styles.heroSubText} mt-2 text-white`}>
+            {details.tagline}
+          </p>
+        </div>
+      </div>
+
+      <ComputersCanvas isMobile={isMobile} />
+
+      <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
+        <span onClick={() => handleLink("about")} className="cursor-pointer">
+          <div className="w-[30px] h-[55px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </span>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
