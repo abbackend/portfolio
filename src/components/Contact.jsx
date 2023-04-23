@@ -51,7 +51,7 @@ const Contact = () => {
       return;
     }
 
-    window.location.replace(`mailto:${form.email}?subject=Portfolio Contact | ${form.name}&body=${form.message}`);
+    window.location.replace(`mailto:abbackend98@gmail.com?subject=Portfolio Contact | ${form.name}&body=${form.message}`);
   };
 
   return (
