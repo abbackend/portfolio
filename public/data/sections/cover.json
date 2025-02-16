@@ -1,0 +1,83 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Ashish Bairagi!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {}
+            },
+
+            "items": [
+                {
+                    "value": "Ujjain – MP",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "abbackend98@gmail.com",
+                    "links": [
+                        {"href": "mailto:abbackend98@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@abbackend",
+                    "links": [
+                        {"href": "https://github.com/abbackend"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>With 5+ years of experience as a developer, I have honed my skills across a diverse array of technologies and languages. My expertise spans PHP, JavaScript, TypeScript, CSS, SCSS, HTML5, Python, Java, C, and C++.</p><p>I specialize in crafting robust architectures and implementing complex design patterns using various versions of Laravel, from 5 to the latest. My proficiency extends to MySQL, MongoDB, and Redis, enabling me to build scalable and maintainable systems.</p><p>My strengths lie in designing and developing diverse architectures, including monolithic, micro-services, and multi-module/component-based systems. I am skilled in applying design patterns such as Factory, Provider, Repository, Facade, and Observer to create efficient solutions.</p><p>My experience includes integrating various services, such as Stripe for payment processing, Vonq for recruitment strategies, and scheduling platforms like Google Meet and Zoom. I have also connected enterprise systems like SAP and SES for email management and domain verification.</p><p>Notable achievements include developing a granular permission-based module for tailored user access, creating an advanced automation system for job pipelines, and overcoming Laravel’s single-level data casting limitations with a custom multi-level casting solution. I have also implemented a global grid view system and user-specific email overrides.</p><p>I am dedicated to excellence, embracing cutting-edge practices like CQRS for separating read and write operations in Laravel APIs, and following SOLID principles with a streamlined architectural approach.</p>"}
+                    }
+                }
+            ]
+        }
+    ]
+}

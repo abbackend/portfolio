@@ -1,0 +1,135 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/company.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "10/01/2019",
+                        "end": "01/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Web Development** Trainee",
+                            "info": "Profilics Systems Pvt. Ltd.",
+                            "text": "Learn and improved my skils in PHP.",
+                            "tags": ["PHP", "MySQL", "Html", "Css"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/company.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2020",
+                        "end": "12/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Junior PHP** Developer",
+                            "info": "Profilics Systems Pvt. Ltd.",
+                            "text": "Developed an application with role-based access control, built RESTful APIs, and integrated card/address validation systems.",
+                            "tags": ["Laravel", "PHP", "REST", "MySQL"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/company.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2021",
+                        "end": "12/01/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Symfony** Developer",
+                            "info": "Profilics Systems Pvt. Ltd.",
+                            "text": "<p>Developed a CRM system from scratch, integrated Zapier webhook for LendingPad sync, added RingCentral SMS gateway, and implemented PDF/image manipulation features.</p><ul><li>Security</li><li>Built a CRM system from scratch</li><li>Integrate Zapier webhook for Lending pad sync</li><li>Added RingCentral for SMS gateway</li><li>Integrated PDF and Image manipulation system</li></ul>",
+                            "tags": ["Symfony", "PHP", "REST", "Docker", "Vuejs", "PostgreSQL"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/company.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2022",
+                        "end": "12/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Lead Web** Developer",
+                            "info": "Profilics Systems Pvt. Ltd.",
+                            "text": "<ul><li>Built and maintained an application with 10k+ active users</li><li>Integrated Stripe payment gateway for secure transactions</li><li>Managed a team of 4 developers, providing mentorship and guidance</li><li>Implemented unit testing for robust application structure</li><li>Developed a microservices-based application architecture</li><li>Worked with Elasticsearch and Redis, leveraging Docker for containerization</li></ul>",
+                            "tags": ["Symfony", "Laravel", "PHP", "Docker", "Vuejs", "PostgreSQL", "Redis"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/company.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2023",
+                        "end": "12/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack** Developer",
+                            "info": "Profilics Systems Pvt. Ltd.",
+                            "text": "<ul><li>Project Management</li><li>Team Leadership</li><li>Cross-Technology Proficiency</li><li>Scalable Solutions</li><li>Microservices & Containerization</li></ul>",
+                            "tags": ["Laravel", "Python", "PHP", "Docker", "Reactjs", "MongoDB", "Redis", "Elastic Search"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/company.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2024",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Technical Project** Manager",
+                            "info": "Profilics Systems Pvt. Ltd.",
+                            "text": "<ul><li>Built and maintained an application with 10k+ active users</li><li>Integrated Stripe payment gateway for secure transactions</li><li>Managed a team of 4 developers, providing mentorship and guidance</li><li>Implemented unit testing for robust application structure</li><li>Developed a microservices-based application architecture</li><li>Worked with Elasticsearch and Redis, leveraging Docker for containerization</li></ul>",
+                            "tags": ["Python", "Laravel", "PHP", "Docker", "AWS", "PostgreSQL", "Redis"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

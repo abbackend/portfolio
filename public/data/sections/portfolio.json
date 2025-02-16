@@ -1,0 +1,173 @@
+{
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+
+      "categories": [
+        {
+          "id": "frontend",
+          "locales": {
+            "en": { "singular": "Frontend", "plural": "Frontend" }
+          }
+        },
+        {
+          "id": "backend",
+          "locales": {
+            "en": { "singular": "Backend", "plural": "Backend" }
+          }
+        },
+        {
+          "id": "fullstack",
+          "locales": {
+            "en": { "singular": "Full Stack", "plural": "Full Stack" }
+          }
+        }
+      ],
+
+      "items": [
+        {
+          "categoryId": "fullstack",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-building",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            { "faIcon": "fa-solid fa-link", "href": "https://plansecurely.com" }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/plansecurely.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Plan Securely",
+              "text": "We were building a platform which makes it easy to connect with local financial and estate planning experts.",
+              "tags": ["Laravel", "Mysql", "PHP"]
+            }
+          }
+        },
+        {
+          "categoryId": "fullstack",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-building",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.clearmortgagecapital.com"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/cmc.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Clear Mortgage Capital",
+              "text": "We were building an application to process mortgages.",
+              "tags": ["Symfony", "PostgreSQL", "Vuejs", "Docker"]
+            }
+          }
+        },
+        {
+          "categoryId": "fullstack",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-building",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.skibutlers.com"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/skibutlers.jpg"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Ski Butlers",
+              "text": "We were building an application like ecommerce to make ski vacations convenient & deliver top quality equipment with the simplest processes.",
+              "tags": [
+                "Laravel",
+                "Mysql",
+                "PostgreSQL",
+                "Vuejs",
+                "Docker",
+                "Craft CMS"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "backend",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-building",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            { "faIcon": "fa-solid fa-link", "href": "https://www.elevatus.io" }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/elevatus.jpg"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Elevatus",
+              "text": "We were building an award-winning recruitment and video interviewing software that streamlines the entire hiring cycle.",
+              "tags": [
+                "Laravel",
+                "MongoDB",
+                "Redis",
+                "Docker",
+                "Elastic Search"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
